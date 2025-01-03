@@ -1,0 +1,32 @@
+
+.goal-card{
+  display: flex;
+  background-color: #496c49;
+  padding: 10px;
+  border-radius: 10px;
+  .header{
+    .icon{
+      height: 50px;
+      width: 50px;
+    }
+  }
+  .sbody{
+    .name{
+      display: flex;
+      justify-content: space-between;
+      h4{
+        margin: 0;
+        padding: 0;
+        display: block;
+      }
+      span{
+        display: block;
+        font-size: 12px;
+      }
+    }
+    h5{
+      margin: 0;
+      padding: 0;
+    }
+  }
+}

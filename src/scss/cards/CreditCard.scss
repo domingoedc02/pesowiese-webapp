@@ -1,0 +1,38 @@
+.credit-card {
+  background-color: #b59898;
+  padding: 10px 15px;
+  min-height: 150px;
+  border-radius: 10px;
+  width: 250px;
+  display: block;
+  margin: 0 auto;
+
+  h4 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .body {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 15px;
+
+    .icon {
+      rotate: 270deg;
+    }
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+
+    h5 {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}

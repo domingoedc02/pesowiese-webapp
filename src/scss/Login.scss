@@ -1,0 +1,58 @@
+
+
+.login-body{
+  background-image: url("../images/bg.png"); // Replace with the actual path
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: #294a29;
+
+
+  .container-box{
+    padding-top: 100px;
+    //border: #282c34 2px solid;
+
+    .box{
+
+      background-color: #d8d5d5;
+      padding: 10px 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+
+      .header{
+        text-align: center;
+        font-weight: bolder;
+        margin-top: 10px;
+      }
+
+      .sign-in-button{
+        background-color: #294a29;
+        height: 40px;
+        border: #294a29 2px solid;
+        &:hover{
+          background-color: transparent;
+          border: #294a29 2px solid;
+          color: #294a29;
+        }
+      }
+
+      .logo{
+        background-color: #496c49;
+
+        width: 200px;
+        display: block;
+        margin: 0 auto;
+        margin-top: -60px;
+        border-radius: 30px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.9);
+        img{
+          width: 130px;
+          height: 100px;
+          display: block;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+
+}

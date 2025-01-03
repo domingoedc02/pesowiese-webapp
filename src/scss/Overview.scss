@@ -1,0 +1,31 @@
+.budgetHeader{
+  display: flex;
+  justify-content: space-between;
+}
+.grid-container {
+  opacity: 0;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  &.active {
+    opacity: 1;
+    display: flex;
+    animation: fadeInUp 0.5s ease-out forwards;
+  }
+
+  &.hidden {
+    animation: fadeInUpReverse 0.5s ease-out forwards;
+    opacity: 0;
+    display: none;
+    pointer-events: none; // Prevent interactions when hidden
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

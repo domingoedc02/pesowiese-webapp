@@ -1,0 +1,30 @@
+
+
+.customize-cashflow-header{
+  display: flex;
+  justify-content: space-between;
+  h2{
+    margin: 0;
+    padding: 0;
+  }
+  button{
+    font-size: 12px;
+    background-color: #d8d5d5;
+    color: #282c34;
+    font-weight: bolder;
+  }
+}
+ .body-cashflow{
+   div{
+     background-color: #323131;
+     padding: 10px;
+     border-radius: 10px;
+     h4{
+       margin: 0;
+       padding: 0;
+     }
+     &:hover{
+       cursor: pointer;
+     }
+   }
+ }

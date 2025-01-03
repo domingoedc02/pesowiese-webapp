@@ -1,0 +1,41 @@
+
+.premium-card{
+  padding: 10px;
+  border-radius: 10px;
+  color: #d8d5d5;
+  min-height: 100px;
+  &.Assets{
+    background: #2b2929;
+  }
+  &.Liabilities{
+    background: #2b2929;
+  }
+
+  .card-header{
+    display: flex;
+    justify-content: space-between;
+    h2{
+      margin: 0;
+      padding: 0;
+    }
+  }
+  .card-body{
+    display: flex;
+    justify-content: space-between;
+    p{
+      margin: 0;
+    }
+    span{
+      padding: 2px 10px;
+      border-radius: 25px;
+      font-size: 12px;
+      font-weight: bolder;
+      &.increase{
+        background-color: #72a66e;
+      }
+      &.decrease{
+        background-color: #672727;
+      }
+    }
+  }
+}

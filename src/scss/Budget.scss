@@ -1,0 +1,26 @@
+
+.budget{
+  background-color: #2b2929;
+  min-height: 300px;
+  padding: 10px;
+  height: 400px;
+  overflow-y: auto;
+  border-radius: 10px;
+  .header{
+    display: flex;
+    justify-content: space-between;
+  }
+  .item{
+    padding: 10px;
+    background: #3e3c3c;
+    margin: 5px 0;
+    h4{
+      margin-top: 0;
+      padding-top: 0;
+    }
+    &:hover{
+      background: #535151;
+      cursor: pointer;
+    }
+  }
+}
